@@ -1,11 +1,17 @@
 <template>
-  <div id="nav"> 
-    <router-link to="/blog">Blog</router-link> | 
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+    <BlogHeader></BlogHeader>
 </template>
+
+<script>
+import BlogHeader from '@/components/blogHeader.vue'
+
+export default {
+  name: 'app',
+  components: {
+    BlogHeader
+  }
+}
+</script>
 
 <style>
 #app {
@@ -14,18 +20,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #1f9410;
 }
 </style>

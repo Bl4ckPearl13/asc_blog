@@ -1,13 +1,13 @@
 <template>
-  <div class="blog">
-      <h1>Blog works</h1>
+  <div class="getStarted">
+      <h1>Get started works</h1>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'blog',
+  name: 'getStarted',
   components: {
   }
 }
