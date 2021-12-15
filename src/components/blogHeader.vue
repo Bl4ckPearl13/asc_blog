@@ -5,9 +5,7 @@
         <img alt="asc logo" src="../assets/asc_logo_alt.png" />
       </div>
       <div class="menu">
-        <router-link to="/blog">Blog</router-link> |
-        <router-link to="/getstarted">get started</router-link> |
-        <router-link to="/">Home</router-link> |
+        <router-link to="/blog">Blog</router-link> |  
         <router-link to="/about">About</router-link>
       </div>
     </div>
@@ -48,7 +46,7 @@ img {
 }
 
 #nav {
-  background-color: rgb(187, 199, 192);
+  background-color: rgb(221, 221, 221);
   font-size: 20px;
   box-sizing: border-box;
   margin-bottom: 50px;
